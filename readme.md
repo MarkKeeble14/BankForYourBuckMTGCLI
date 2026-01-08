@@ -11,12 +11,12 @@ git clone https://github.com/MarkKeeble14/MTGPackToPurchase.git
 
 #### Step 2: Enter the cloned directory
 ```bash
-cd MTGPackToPurchase
+cd BankForYourBuckMTGCLI
 ```
 
 #### Step 3: Open the .sln file
 ```bash
-start MTGSetRecommender.sln
+start BankForYourBuckMTG.sln
 ```
 
 #### Step 4: Build the project (Can be done by pressing Shift+F6)
