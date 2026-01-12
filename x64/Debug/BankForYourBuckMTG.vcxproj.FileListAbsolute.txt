@@ -1,0 +1,4 @@
+E:\ProgrammingProjects\BankForYourBuckMTG\x64\Debug\BankForYourBuckMTG.vcxproj.CopyComplete
+E:\ProgrammingProjects\BankForYourBuckMTG\x64\Debug\BankForYourBuckMTG.exe
+E:\ProgrammingProjects\BankForYourBuckMTG\x64\Debug\libcurl-d.dll
+E:\ProgrammingProjects\BankForYourBuckMTG\x64\Debug\zlibd1.dll

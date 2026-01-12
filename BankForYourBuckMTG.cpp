@@ -240,8 +240,8 @@ string PromptCLI(string prompt, map<string, pair<int, string>> acceptedResponses
 // Verbose determines how much is printed
 void RoutinePreconDataQuery(vector<string> interestedCards, bool verbose)
 {
-    // Iterate through all files in directory E:\ProgrammingProjects\MTGSetRecommender\CommanderPrecons\precon_json
-    string path = "E:\\ProgrammingProjects\\MTGSetRecommender\\CommanderPrecons\\precon_json";
+    // Iterate through all precon source files
+    string path = ".\\libs\\CommanderPrecons\\precon_json";
     map<string, vector<CardInformation*>> results;
 
     for (auto& entry : fs::directory_iterator(path))
@@ -572,7 +572,7 @@ pair<int, vector<string>> RoutineReadCardsFromFile(bool filterBasicLands, bool p
 {
     vector<string> interestedCards;
 
-    string in = "..\\..\\cards_list.txt";
+    string in = ".\\cards_list.txt";
     if (promptForFilePath)
     {
         in = PromptSingleTokenCLI("Enter File Path: ");
